@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 
 export default function Sotk() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -10,73 +11,73 @@ export default function Sotk() {
       id: 1,
       name: "ASHAR SOSE,SE",
       position: "Kepala Desa",
-      photo: "/images/sotk/asharsose.jpg"
+      photo: "/images/SOTK/asharsose.jpg"
     },
     {
       id: 2,
       name: "SUDIRMAN. B",
       position: "SEKRETARIS DESA",
-      photo: "/images/sotk/sudirmanb.jpeg"
+      photo: "/images/SOTK/sudirmanb.jpeg"
     },
     {
       id: 3,
       name: "IDAYANTI",
       position: "KAUR TATA USAHA DAN UMUM",
-      photo: "/images/sotk/idayanti.jpg"
+      photo: "/images/SOTK/idayanti.jpg"
     },
     {
       id: 4,
       name: "DARWIS, S.Kep",
       position: "KAUR KEUANGAN",
-      photo: "/images/sotk/darwis.jpg"
+      photo: "/images/SOTK/darwis.jpg"
     },
     {
       id: 5,
       name: "ANDY YAMZEM, S.H",
       position: "STAFF KAUR KEUANGAN",
-      photo: "/images/sotk/andyyamzem.jpeg"
+      photo: "/images/SOTK/andyyamzem.jpeg"
     },
     {
       id: 6,
       name: "ASRUDI, S",
       position: "KAUR PERENCANAAN",
-      photo: "/images/sotk/asrudis.jpeg"
+      photo: "/images/SOTK/asrudis.jpeg"
     },
     {
       id: 7,
       name: "NANDA ARIS, S.Ak",
       position: "STAFF KAUR PERENCANAAN",
-      photo: "/images/sotk/nandaaris.jpeg"
+      photo: "/images/SOTK/nandaaris.jpeg"
     },
     {
       id: 8,
       name: "MISDAR",
       position: "KAUR PELAYANAN",
-      photo: "/images/sotk/misdar.jpeg"
+      photo: "/images/SOTK/misdar.jpeg"
     },
     {
       id: 9,
       name: "SITTI HARDIANTI",
       position: "KAUR KESEJAHTERAAN",
-      photo: "/images/sotk/sittihardianti.jpg"
+      photo: "/images/SOTK/sittihardianti.jpg"
     },
     {
       id: 10,
       name: "HERNENI, A.Md",
       position: "KAUR PEMERINTAHAN",
-      photo: "/images/sotk/herneni.jpg"
+      photo: "/images/SOTK/herneni.jpg"
     },
     {
       id: 11,
       name: "H. MURDIONO",
       position: "KEPALA DUSUN I",
-      photo: "/images/sotk/murdiono.jpg"
+      photo: "/images/SOTK/murdiono.jpg"
     },
     {
       id: 12,
       name: "H. WAJI",
       position: "KEPALA DUSUN II",
-      photo: "/images/sotk/waji.jpg"
+      photo: "/images/SOTK/waji.jpg"
     }
   ];
 
@@ -126,13 +127,13 @@ export default function Sotk() {
                 width: '100%',
                 height: '300px',
                 overflow: 'hidden',
+                position: 'relative',
               }}>
-                <img 
+                <Image 
                   src={p.photo} 
                   alt={p.name}
+                  fill
                   style={{
-                    width: '100%',
-                    height: '100%',
                     objectFit: 'cover',
                   }}
                 />
@@ -224,18 +225,21 @@ export default function Sotk() {
                 ×
               </button>
               
-              <img 
-                src="/images/STR.jpeg" 
-                alt="Struktur Organisasi Desa Kampale"
-                style={{
-                  width: '100%',
-                  height: 'auto',
-                  maxHeight: '90vh',
-                  objectFit: 'contain',
-                  borderRadius: '8px',
-                  boxShadow: '0 10px 30px rgba(0,0,0,0.3)',
-                }} 
-              />
+              <div style={{
+                position: 'relative',
+                width: '100%',
+                height: '80vh',
+              }}>
+                <Image 
+                  src="/images/STR.jpeg" 
+                  alt="Struktur Organisasi Desa Kampale"
+                  fill
+                  style={{
+                    objectFit: 'contain',
+                    borderRadius: '8px',
+                  }} 
+                />
+              </div>
               
               <div style={{
                 marginTop: '16px',

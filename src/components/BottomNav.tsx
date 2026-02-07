@@ -9,7 +9,7 @@ export default function BottomNav() {
   const menu = [
     { href: "/beranda", label: "Beranda", icon: "🏠" },
     { href: "/pelayanan-desaku", label: "Layanan Desaku", icon: "📄" },
-    { href: "/profil-desa", label: "Informasi Desa", icon: "🏡" },
+    { href: "/profil-desa", label: "Informasi Desa", icon: "ℹ️" },
   ];
 
   return (

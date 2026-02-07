@@ -174,7 +174,6 @@ export default function Sotk() {
             fontWeight: '600',
             transition: 'background 0.2s',
             cursor: 'pointer',
-            border: '1px solid #d1d5db',
           }} 
           onMouseEnter={(e) => e.currentTarget.style.background = '#f3f4f6'} 
           onMouseLeave={(e) => e.currentTarget.style.background = 'none'}

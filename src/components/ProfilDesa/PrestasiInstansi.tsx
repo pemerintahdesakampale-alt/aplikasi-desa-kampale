@@ -79,7 +79,7 @@ export default function PrestasiInstansi() {
               fontWeight: 'bold',
               marginBottom: '12px'
             }}>
-              Institut Agama Islam (IAI) As'adiyah
+              Institut Agama Islam (IAI) As&apos;adiyah
             </h3>
             <p style={{ 
               color: '#4b5563',

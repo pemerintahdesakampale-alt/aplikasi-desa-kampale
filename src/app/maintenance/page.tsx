@@ -2,17 +2,12 @@
 
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { useAppContext } from '@/context/AppContext'; // Mengambil context dark mode
 import Image from "next/image";
 
 const MaintenancePage = () => {
-  const [mounted, setMounted] = useState(false);
   const { dark } = useAppContext(); // Mengambil nilai dark mode dari context
-
-  useEffect(() => {
-    setMounted(true);
-  }, []);
 
   // Ganti angka ini sesuai ukuran asli gambar test.png kamu!
   const imageWidth = 400;

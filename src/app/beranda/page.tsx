@@ -5,13 +5,10 @@ import PetaDesa from '@/components/beranda/PetaDesa';
 import Statistik from '@/components/beranda/Statistik';
 import ApbDesa from '@/components/beranda/ApbDesa';
 import Berita from '@/components/beranda/Berita';
-import Potensi from '@/components/beranda/Potensi';
-import Wisata from '@/components/beranda/Wisata';
-import BeliDariDesa from '@/components/beranda/BeliDariDesa';
 import Galeri from '@/components/beranda/Galeri';
 import Sotk from '@/components/beranda/Sotk';
 import Footer from '@/components/beranda/Footer';
-import Header from '@/components/Header';
+
 
 const globalStyles = `
   /* =============================== */

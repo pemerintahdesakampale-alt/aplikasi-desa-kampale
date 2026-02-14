@@ -1,18 +1,25 @@
-/* Global Styles */
+/* =============================== */
+/* 1. RESET & BASE (GABUNGAN)      */
+/* =============================== */
+* {
+  box-sizing: border-box;
+}
+
 html, body {
   margin: 0;
   padding: 0;
-  height: 100%; /* Mengatur agar body memenuhi tinggi halaman */
-  width: 100%; /* Mengatur agar body memenuhi lebar halaman */
-  background-color: #111; /* Latar belakang gelap untuk dark mode */
-  color: #fff; /* Warna teks default putih untuk dark mode */
-  font-family: Arial, sans-serif;
+  height: 100%; 
+  width: 100%; 
+  background-color: #111; /* Default dark mode */
+  color: #fff; 
+  /* Font digabung dengan yang dari page.tsx agar lebih modern */
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
 }
 
 /* Mengatur warna latar belakang berdasarkan mode gelap */
 body.light-mode {
-  background-color: #fff;
-  color: #111;
+  background-color: #f3f4f6; /* Warna terang yang Anda pakai di page.tsx */
+  color: #111827;
 }
 
 body.dark-mode {
@@ -20,11 +27,14 @@ body.dark-mode {
   color: #fff;
 }
 
-/* Membuat link terlihat sesuai dengan tema */
 a {
-  color: inherit; /* Warna link mengikuti mode */
+  color: inherit; 
   text-decoration: none;
 }
+
+/* =============================== */
+/* 2. KOMPONEN UTAMA (HEADER/SIDEBAR)*/
+/* =============================== */
 
 /* Button styling */
 button {
@@ -37,7 +47,7 @@ button {
 }
 
 button.dark-mode {
-  background-color: #444; /* Button untuk dark mode */
+  background-color: #444; 
 }
 
 button:hover {
@@ -49,8 +59,8 @@ header {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background: #444; /* Dark mode background */
-  color: #fff; /* White text */
+  background: #444; 
+  color: #fff; 
   padding: 10px 15px;
   border-radius: 0 0 8px 8px;
   display: flex;
@@ -68,8 +78,8 @@ main {
   margin: 0;
   padding: 0;
   width: 100%;
-  background-color: inherit; /* Mengikuti background mode */
-  color: inherit; /* Mengikuti warna teks mode */
+  background-color: inherit; 
+  color: inherit; 
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -118,20 +128,132 @@ main {
     flex-direction: column;
     align-items: flex-start;
   }
-
   header img {
     margin-bottom: 10px;
   }
-
   .sidebar {
     width: 200px;
   }
-
   .bottom-nav {
     padding: 15px 0;
   }
-
   button {
     width: 100%;
   }
+}
+
+/* =============================== */
+/* 3. STYLING DARI HALAMAN BERANDA */
+/* =============================== */
+
+.wrap {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0;
+  width: 100%;
+}
+
+section {
+  padding: 60px 0;
+  width: 100%;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  display: block;
+  border-radius: 6px;
+}
+
+/* === APB === */
+.apb { 
+  background: #ecfdf5; 
+  color: #111827; /* Memastikan teks tetap hitam meski di mode gelap */
+}
+.apb-value { 
+  color: #047857; 
+  font-weight: 700; 
+  margin-top: 6px; 
+  font-size: 20px; 
+}
+
+/* === SOTK === */
+.sotk-cards {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding: 10px 0;
+  scrollbar-width: thin;
+}
+
+.sotk-card { 
+  min-width: 280px; 
+  border-radius: 12px; 
+  overflow: hidden; 
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1); 
+  background-color: #fff; /* Latar belakang kartu selalu putih */
+  color: #111; /* Teks kartu selalu hitam agar terbaca jelas */
+}
+
+.sotk-card img { 
+  height: 220px; 
+  object-fit: cover; 
+}
+
+.sotk-card .info { 
+  background: #2563eb; 
+  color: white; 
+  padding: 16px; 
+  text-align: center; 
+}
+
+.name { 
+  font-weight: bold; 
+  font-size: 16px; 
+  margin: 0 0 4px 0; 
+}
+
+.position { 
+  font-size: 14px; 
+  opacity: 0.9; 
+}
+
+.btn-lihat-semua {
+  display: block;
+  width: fit-content;
+  margin: 20px auto 0;
+  padding: 10px 24px;
+  border: 2px solid #2563eb;
+  border-radius: 12px;
+  color: #2563eb;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn-lihat-semua:hover { 
+  background: #2563eb; 
+  color: white; 
+}
+
+/* === FOOTER === */
+footer {
+  background: #065f46;
+  color: #fff;
+  margin-top: 60px;
+  width: 100%;
+}
+
+footer .wrap { 
+  padding: 40px 0; 
+}
+
+footer p { 
+  margin: 4px 0; 
+  font-size: 14px; 
 }

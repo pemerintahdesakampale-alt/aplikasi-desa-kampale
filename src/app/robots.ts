@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: '/admin/', // Cegah Google mengindeks halaman login admin
     },
-    sitemap: 'https://desakampele.site/sitemap.xml',
+    sitemap: 'https://desakampale.site/sitemap.xml',
   }
 }

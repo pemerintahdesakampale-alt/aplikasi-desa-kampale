@@ -5,18 +5,18 @@ import type { Metadata } from 'next';
 import Script from 'next/script'; // Import Script untuk JSON-LD
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://desakampele.site'),
+  metadataBase: new URL('https://desakampale.site'),
   title: {
-    default: 'Website Resmi Desa Kampele',
-    template: '%s | Desa Kampele' 
+    default: 'Website Resmi Desa Kampale',
+    template: '%s | Desa Kampale' 
   },
-  description: 'Portal resmi Pemerintah Desa Kampele. Temukan informasi terbaru, layanan administrasi, profil desa, dan berita terkini.',
-  keywords: ['Desa Kampele', 'Kampele', 'Pemerintah Desa Kampele', 'Website Desa', 'Info Desa Kampele'],
+  description: 'Portal resmi Pemerintah Desa Kampale. Temukan informasi terbaru, layanan administrasi, profil desa, dan berita terkini.',
+  keywords: ['Desa Kampale', 'Kampale', 'Pemerintah Desa Kampale', 'Website Desa', 'Info Desa Kampale'],
   openGraph: {
-    title: 'Website Resmi Desa Kampele',
-    description: 'Pusat informasi dan layanan masyarakat Desa Kampele.',
-    url: 'https://desakampele.site',
-    siteName: 'Pemerintah Desa Kampele',
+    title: 'Website Resmi Desa Kampale',
+    description: 'Pusat informasi dan layanan masyarakat Desa Kampale.',
+    url: 'https://desakampale.site',
+    siteName: 'Pemerintah Desa Kampale',
     locale: 'id_ID',
     type: 'website',
   },
@@ -34,12 +34,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'GovernmentOrganization',
-    name: 'Pemerintah Desa Kampele',
-    url: 'https://desakampele.site',
-    logo: 'https://desakampele.site/logo.png', // Pastikan ada file logo.png di folder public
+    name: 'Pemerintah Desa Kampale',
+    url: 'https://desaKampale.site',
+    logo: 'https://desaKampale.site/logo.png', // Pastikan ada file logo.png di folder public
     address: {
       '@type': 'PostalAddress',
-      addressLocality: 'Kampele',
+      addressLocality: 'Kampale',
       addressRegion: 'Sulawesi Tenggara',
       addressCountry: 'ID'
     }

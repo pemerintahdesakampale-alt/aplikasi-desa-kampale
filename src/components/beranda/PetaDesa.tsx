@@ -32,15 +32,15 @@ export default function PetaDesa() {
           fontSize: '14px',
           color: '#4b5563',
         }}>
-          Menampilkan Peta Desa Dengan <em>Interest Point</em> Desa Kampale
+          Menampilkan Titik Lokasi Kantor Kepala Desa Kampale
         </p>
       </div>
 
       {/* Container Peta Google Maps */}
       <iframe 
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53554.30286788318!2d119.97707867137997!3d-3.9276953834267245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d95d1d348040eeb%3A0x6ff3783bd75613d4!2sKampale%2C%20Kec.%20Duapitue%2C%20Kabupaten%20Sidenreng%20Rappang%2C%20Sulawesi%20Selatan!5e0!3m2!1sid!2sid!4v1778228123082!5m2!1sid!2sid" 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15918.423719047913!2d119.9868779!3d-3.914275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d95d183762644e1%3A0xd4322b4f91866497!2sKantor%20Kepala%20Desa%20Kampale!5e0!3m2!1sid!2sid!4v1715157073000!5m2!1sid!2sid" 
         width="100%" 
-        height="400" 
+        height="450" 
         style={{ border: 0 }} 
         allowFullScreen={true} 
         loading="lazy" 

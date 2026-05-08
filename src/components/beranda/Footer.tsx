@@ -70,10 +70,20 @@ export default function Footer() {
           <h3 style={{ fontSize: '18px', fontWeight: 'bold', margin: '0 0 16px 0' }}>Jelajahi</h3>
           <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
             {[
-              "Website",
-              "Kemendesa",
-              "Kemendagri",
-              "website pemerintah kab sidrap",
+              // "Website",
+              // "Kemendesa",
+              // "Kemendagri",
+              // "website pemerintah kab sidrap",
+
+              // UBAH DI ATAS MENJADI DI BAWAH INI
+              // SISA HILANGKAN KOMENTAR LALU HAPUS YANG DI ATAS
+
+                { nama: "Website", link: "https://www.desakampale.site/" }, 
+                { nama: "Kemendesa", link: "https://kemendesa.go.id/" },
+                { nama: "Kemendagri", link: "https://www.kemendagri.go.id/" },
+                { nama: "Website Pemerintah Kab Sidrap", link: "https://sidrapkab.go.id/" },
+
+
             ].map((item, i) => (
               <li key={i} style={{ marginBottom: '8px' }}>
                 <a href="#" style={{
@@ -81,7 +91,10 @@ export default function Footer() {
                   textDecoration: 'underline',
                   fontSize: '14px',
                 }}>
-                  {item}
+                  {/* {item} */}
+
+                  {item.nama}
+
                 </a>
               </li>
             ))}

@@ -50,7 +50,7 @@ export default function LayananPage() {
       <div className="container">
         <header className="header">
           <h1>Profil Desa</h1>
-           <p className="sub"></p>
+           <p className="sub">DESA KAMPALE</p>
         </header>
 
         <div className="grid">

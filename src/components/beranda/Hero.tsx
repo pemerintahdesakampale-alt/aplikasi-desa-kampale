@@ -38,7 +38,7 @@ export default function Hero() {
         display: 'flex',
         transition: 'transform 1s ease-in-out'
       }}>
-        {images.map((image, index) => (
+        {images.map((image, index) => (           
           <img 
             key={index}
             src={image} 

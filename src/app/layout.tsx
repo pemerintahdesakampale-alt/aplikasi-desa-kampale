@@ -2,7 +2,7 @@ import { AppProvider } from "@/context/AppContext";
 import ClientLayout from "@/components/ClientLayout";
 import 'ol/ol.css';
 import type { Metadata } from 'next';
-import Script from 'next/script'; // Import Script untuk JSON-LD
+//import Script from 'next/script'; // Import Script untuk JSON-LD
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://desakampale.site'),

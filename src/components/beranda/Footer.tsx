@@ -86,7 +86,8 @@ export default function Footer() {
 
             ].map((item, i) => (
               <li key={i} style={{ marginBottom: '8px' }}>
-                <a href="#" style={{
+                <a href={item.link} target="_blank" rel="noopener noreferrer" style={{
+                // <a href="#" style={{
                   color: 'white',
                   textDecoration: 'underline',
                   fontSize: '14px',

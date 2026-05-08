@@ -11,73 +11,73 @@ export default function Sotk() {
       id: 1,
       name: "ASHAR SOSE,SE",
       position: "Kepala Desa",
-      photo: "/images/SOTK/asharsose.jpg"
+      photo: "/images/SOTK/asharsose2.PNG"
     },
     {
       id: 2,
       name: "SUDIRMAN. B",
       position: "SEKRETARIS DESA",
-      photo: "/images/SOTK/sudirmanb.jpeg"
+      photo: "/images/SOTK/sudirmanb2.jpeg"
     },
     {
       id: 3,
       name: "IDAYANTI",
       position: "KAUR TATA USAHA DAN UMUM",
-      photo: "/images/SOTK/idayanti.jpg"
+      photo: "/images/SOTK/idayanti2.jpg"
     },
     {
       id: 4,
       name: "DARWIS, S.Kep",
       position: "KAUR KEUANGAN",
-      photo: "/images/SOTK/darwis.jpg"
+      photo: "/images/SOTK/darwis2.jpg"
     },
     {
       id: 5,
       name: "ANDY YAMZEM, S.H",
       position: "STAFF KAUR KEUANGAN",
-      photo: "/images/SOTK/andyyamzem.jpeg"
+      photo: "/images/SOTK/andyyamzem2.jpg"
     },
     {
       id: 6,
       name: "ASRUDI, S",
       position: "KAUR PERENCANAAN",
-      photo: "/images/SOTK/asrudis.jpeg"
+      photo: "/images/SOTK/asrudis2.jpg"
     },
     {
       id: 7,
       name: "NANDA ARIS, S.Ak",
       position: "STAFF KAUR PERENCANAAN",
-      photo: "/images/SOTK/nandaaris.jpeg"
+      photo: "/images/SOTK/nandaaris2.jpg"
     },
     {
       id: 8,
       name: "MISDAR",
       position: "KAUR PELAYANAN",
-      photo: "/images/SOTK/misdar.jpeg"
+      photo: "/images/SOTK/misdar2.jpg"
     },
     {
       id: 9,
       name: "SITTI HARDIANTI",
       position: "KAUR KESEJAHTERAAN",
-      photo: "/images/SOTK/sittihardianti.jpg"
+      photo: "/images/SOTK/sittihardianti2.jpg"
     },
     {
       id: 10,
       name: "HERNENI, A.Md",
       position: "KAUR PEMERINTAHAN",
-      photo: "/images/SOTK/herneni.jpg"
+      photo: "/images/SOTK/herneni2.jpg"
     },
     {
       id: 11,
       name: "H. MURDIONO",
       position: "KEPALA DUSUN I",
-      photo: "/images/SOTK/murdiono.jpg"
+      photo: "/images/SOTK/murdiono2.jpg"
     },
     {
       id: 12,
       name: "H. WAJI",
       position: "KEPALA DUSUN II",
-      photo: "/images/SOTK/waji.jpg"
+      photo: "/images/SOTK/waji2.jpg"
     }
   ];
 

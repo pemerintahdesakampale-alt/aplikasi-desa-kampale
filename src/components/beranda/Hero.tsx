@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import KalenderWidget from './KalenderWidget'; // <-- Ini kode import yang baru ditambahkan
 
 export default function Hero() {
   // Daftar foto hero (sesuaikan nama file Anda)
@@ -38,7 +39,7 @@ export default function Hero() {
         display: 'flex',
         transition: 'transform 1s ease-in-out'
       }}>
-        {images.map((image, index) => (           
+        {images.map((image, index) => (          
           <img 
             key={index}
             src={image} 
@@ -122,6 +123,9 @@ export default function Hero() {
           />
         ))}
       </div>
+
+      {/* WIDGET KALENDER DITAMBAHKAN DI SINI */}
+      <KalenderWidget />
 
       {/* Animation Styles */}
       <style jsx global>{`

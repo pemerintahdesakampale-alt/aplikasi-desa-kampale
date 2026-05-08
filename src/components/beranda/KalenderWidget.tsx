@@ -40,7 +40,7 @@ export default function KalenderWidget() {
       top: '20px',
       right: '20px',
       zIndex: 50, // Memastikan tidak tertutup elemen lain
-      background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', // Warna ungu gradasi
+      background: 'linear-gradient(135deg, #66eaac 0%, #52a24b 100%)', // Warna ungu gradasi
       color: 'white',
       padding: '16px 24px',
       borderRadius: '12px',

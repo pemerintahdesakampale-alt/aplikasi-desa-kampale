@@ -52,19 +52,19 @@ export default function Sotk() {
     {
       id: 8,
       name: "MISDAR",
-      position: "KAUR PELAYANAN",
+      position: "KASI PELAYANAN",
       photo: "/images/SOTK/misdar2.jpg"
     },
     {
       id: 9,
       name: "SITTI HARDIANTI",
-      position: "KAUR KESEJAHTERAAN",
+      position: "KASI KESEJAHTERAAN",
       photo: "/images/SOTK/sittihardianti2.jpg"
     },
     {
       id: 10,
       name: "HERNENI, A.Md",
-      position: "KAUR PEMERINTAHAN",
+      position: "KASI PEMERINTAHAN",
       photo: "/images/SOTK/herneni2.jpg"
     },
     {
